@@ -23,3 +23,14 @@ class Solution:
     def majorityElement(self, nums: collections.List[int]) -> int:
         counter = collections.Counter(nums)
         return max(counter, key=lambda c: counter[c] > (len(nums)/2))
+
+    def majorityElement2(self, nums: collections.List[int]) -> int:
+        for i in set(nums):
+            if nums.count(i) > len(nums)/2:
+                ans = i
+                break
+        return ans
+
+    def majorityElement3(self, nums: collections.List[int]) -> int:
+        nums.sort()
+        return nums[len(nums)//2]  # Median of the array
