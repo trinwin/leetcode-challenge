@@ -34,16 +34,17 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         p_counter = Counter(p)
+        ls, lp = len(s), len(p)
         res = []
 
-        for i in range(len(s)-len(p)+1):
+        for i in range(ls - lp + 1):
             if i == 0:
-                s_counter = Counter(s[:len(p)])
+                s_counter = Counter(s[:lp])
             else:
                 s_counter[s[i-1]] -= 1
                 if not s_counter[s[i-1]]:
                     del s_counter[s[i-1]]
-                s_counter[s[i+len(p)-1]] += 1
+                s_counter[s[i+lp-1]] += 1
 
             if len(p_counter - s_counter) == 0:
                 res.append(i)
