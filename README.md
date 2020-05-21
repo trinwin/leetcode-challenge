@@ -50,25 +50,25 @@ I use this repository to keep track of my leetcode progress. I decided to take o
 
 1. Check perfec square without using sqrt --> Use i \* i or num \*\* 0.5
 
-## [10.findTownJudge.py]()
+## [10.findTownJudge.py](https://github.com/trinityng/leetcode-challenge/blob/master/may_challenge/_10.findTownJudge.py)
 
 1. [0] \* N --> Create empty list size of N
 
 2. Using index as a key is faster
 
-## [11.floodFill.py]()
+## [11.floodFill.py](https://github.com/trinityng/leetcode-challenge/blob/master/may_challenge/_11.floodFill.py)
 
 1. Practice recursion for 2D array
 
 2. Find 4-directionally connected neighbor of an element
 
-## [12.singleElement.py]()
+## [12.singleElement.py](https://github.com/trinityng/leetcode-challenge/blob/master/may_challenge/_12.singleElement.py)
 
 1. Find single element that appears exactly once
 
 2. Traverse through array by 2 elements and compare element and the one next to it to find unequality
 
-## [13.removeKDigit.py]()
+## [13.removeKDigit.py](https://github.com/trinityng/leetcode-challenge/blob/master/may_challenge/_13.removeKDigit.py)
 
 1. Use stack - append and pop digit that greater then its preceding one
 
@@ -76,23 +76,23 @@ I use this repository to keep track of my leetcode progress. I decided to take o
 
 3. To remove leading zeros, use lstrip('0')
 
-## [14.implementTrie.py]()
+## [14.implementTrie.py](https://github.com/trinityng/leetcode-challenge/blob/master/may_challenge/_14.implementTrie.py)
 
 1. N/A
 
-## [15.maxSumCircularSubarray.py]()
+## [15.maxSumCircularSubarray.py](https://github.com/trinityng/leetcode-challenge/blob/master/may_challenge/_15.maxSumCircularSubarray.py)
 
 1. Learn Kadane's algorithm
 
 2. Learn Dynamic Programming
 
-## [16.oddEvenLinkedList.py]()
+## [16.oddEvenLinkedList.py](https://github.com/trinityng/leetcode-challenge/blob/master/may_challenge/_16.oddEvenLinkedList.py)
 
 1. Review Linked List
 
 2. Learn multi-chain assignment (a = b = 5)
 
-## [17.findAllAnagramInString.py]()
+## [17.findAllAnagramInString.py](https://github.com/trinityng/leetcode-challenge/blob/master/may_challenge/_17.findAllAnagramInString.py)
 
 1. Use Counter
 
@@ -100,12 +100,18 @@ I use this repository to keep track of my leetcode progress. I decided to take o
 
 3. Quicken algorithm by reducing the number of loop through array using Sliding Window
 
-## [18.permutationInString.py]()
+## [18.permutationInString.py](https://github.com/trinityng/leetcode-challenge/blob/master/may_challenge/_18.permutationInString.py)
 
 1. Practice the Sliding Window techniques again and optimized sliding window. This problem is similar to findAnagram
 
-## [19.onlineStockSpanner]()
+## [19.onlineStockSpanner.py](https://github.com/trinityng/leetcode-challenge/blob/master/may_challenge/_19.onlineStockSpan.py)
 
 1. Practice more with Dynamic Programming
 
 2. Use Stack to save data to reduce the memory and run time
+
+## [20.kthSmallestElementInBST.py](https://github.com/trinityng/leetcode-challenge/blob/master/may_challenge/_20.kthSmallestElementInBST.py)
+
+1. Review Binary Tree Inorder Traversal
+
+2. Write function inside of a function
