@@ -96,7 +96,7 @@ I use this repository to keep track of my leetcode progress. I decided to take o
 
 1. Use Counter
 
-2. Learn to convert char to ASCII Code
+2. Learn to convert char to ASCII Code using ord()
 
 3. Quicken algorithm by reducing the number of loop through array using Sliding Window
 
